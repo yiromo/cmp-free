@@ -99,3 +99,20 @@ The implementation includes a Gradio interface that provides:
 The implemented CIFAR-10 classification system demonstrates strong performance with room for improvement. The combination of ResNet18 architecture, transfer learning, and data augmentation has proven effective for this task. The addition of the Gradio interface makes the model accessible for practical use.
 
 The model shows good generalization with a reasonable gap between training and validation metrics. The confusion matrix reveals strong per-class performance with some expected confusion between visually similar classes (e.g., cats and dogs).
+
+              precision    recall  f1-score   support
+
+       Plane       0.85      0.80      0.82      1000
+         Car       0.91      0.91      0.91      1000
+        Bird       0.82      0.82      0.82      1000
+         Cat       0.75      0.71      0.73      1000
+        Deer       0.82      0.85      0.83      1000
+         Dog       0.79      0.79      0.79      1000
+        Frog       0.87      0.88      0.88      1000
+       Horse       0.86      0.89      0.87      1000
+        Ship       0.87      0.90      0.88      1000
+       Truck       0.93      0.94      0.94      1000
+
+    accuracy                           0.80     10000
+   macro avg       0.85      0.80      0.83     10000
+weighted avg       0.85      0.80      0.83     10000
